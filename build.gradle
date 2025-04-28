@@ -10,7 +10,7 @@ plugins {
 repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
@@ -32,5 +32,5 @@ tasks.withType(JavaCompile).configureEach {
 
 application {
     // Define the main class for the application.
-    mainClassName = 'wpi.many.tests.ensures.called.methods.App'
+    mainClass = 'wpi.many.tests.ensures.called.methods.App'
 }
